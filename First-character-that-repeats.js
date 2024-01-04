@@ -26,3 +26,5 @@ function firstDup(s) {
   }, {});
   return letters.find(l => dict[l] > 1);
 }
+
+// or
