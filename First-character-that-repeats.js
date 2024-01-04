@@ -17,3 +17,12 @@ Another example:
 
 
 // Solution
+
+function firstDup(s) {
+  const letters = [...s];
+  const dict = letters.reduce((akk, l) => {
+    akk[l] = akk[l] ? akk[l] + 1 : 1;
+    return akk;
+  }, {});
+  return letters.find(l => dict[l] > 1);
+}
