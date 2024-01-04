@@ -14,3 +14,6 @@ Another example:
   While second 'a' appears before second 't', 
   the first 't' is before the first 'a'.
 */
+
+
+// Solution
